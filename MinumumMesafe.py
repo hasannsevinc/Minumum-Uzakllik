@@ -7,7 +7,7 @@ def euclidean_Distance(point1,point2):
     return ((point1[0]-point2[0])**2 + (point1[1]-point2[1])**2)**0.5
 
 
-for i in range(len(point)- 1): #3  - 0 1 2 3
+for i in range(len(point)- 1): #3  - 0 1 2 
     for j in range(i + 1,len(point)):
         distance.append(euclidean_Distance(point[i],point[j]))
 
